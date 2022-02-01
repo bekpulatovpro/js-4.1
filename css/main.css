@@ -1,0 +1,24 @@
+.film__list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 50px;
+   
+}
+.film__item{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    
+}
+.film__genre{
+    margin-top: 20px;
+}
+.film__item{
+    padding-top: 5px;
+}
+.film__img{
+    text-align: center;
+    padding: 10px;
+    width: 330px;
+    border-radius: 20px;
+}
